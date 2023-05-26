@@ -1,0 +1,58 @@
+/* Write your CSS code here */
+.blog-details-list-container {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  padding: 20px;
+}
+
+@media screen and (min-width: 768px) {
+  .blog-details-list-container {
+    width: 90%;
+    margin: auto;
+  }
+}
+.blog-details-topic {
+  font-family: 'Roboto';
+  font-size: 18px;
+  font-weight: 600;
+  color: #000000;
+}
+@media screen and (min-width: 768px) {
+  .blog-details-topic {
+    font-size: 22px;
+  }
+}
+.author-container {
+  display: flex;
+}
+.author-image {
+  height: 40px;
+  width: 40px;
+  border-radius: 40px;
+  margin-right: 20px;
+}
+.author-name {
+  font-family: 'Roboto';
+  font-size: 16px;
+  color: #8e8e8e;
+}
+.title-image {
+  width: 100%;
+  border-radius: 8px;
+}
+@media screen and (min-width: 768px) {
+  .title-image {
+    width: 80%;
+  }
+}
+.content {
+  font-family: 'Roboto';
+  font-size: 16px;
+  color: #8e8e8e;
+}
+@media screen and (min-width: 768px) {
+  .content {
+    font-size: 18px;
+  }
+}
